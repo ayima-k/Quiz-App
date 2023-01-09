@@ -1,0 +1,50 @@
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.card{
+    background-color: rgb(235, 235, 178);
+    margin-bottom: 40px;
+    width: 340px!important;
+    margin-left: 30px;
+    border-radius: 30px!important;
+    padding: 30px 20px;
+}
+.card-header p{
+    font-size: 30px;
+    text-align: center;
+    color: cadetblue;
+}
+.card-body input{
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    padding: 15px 5px;
+    margin-bottom: 5px;
+    outline: none;
+}
+.card-footer button{
+    width: 60%;
+    margin-left: 65px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 50px;
+    background: none;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    transition: .1s;
+    outline: none;
+}
+.card-footer button:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}

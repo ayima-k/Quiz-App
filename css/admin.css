@@ -1,0 +1,56 @@
+html{
+    overflow-y: hidden;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 10px 0;
+}
+.card{
+    background-color: rgb(235, 235, 178);
+    margin-bottom: 40px;
+    width: 340px!important;
+    margin-left: 30px;
+    padding: 30px 40px;
+    border-radius: 30px!important;
+}
+.card-header p{
+    font-size: 30px;
+    text-align: center;
+    color: cadetblue;
+}
+.card-body input{
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    padding: 9px 7px;
+    margin-bottom: 9px;
+    outline: none;
+}
+.card-footer button{
+    width: 60%;
+    margin-left: 65px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 50px;
+    background: none;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    transition: .1s;
+    outline: none;
+}
+.card-footer button:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+.label span{
+    font-size: 20px;
+    color: cadetblue;
+}
+.label select{
+    width: 70px;
+    margin-left: 30px;
+}

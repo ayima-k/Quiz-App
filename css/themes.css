@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.theme{
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+    padding: 60px; 
+    margin: 40px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px #ddd;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .3s;
+}
+.theme:hover{
+    background-color: palegreen;
+}
+.add, .addQuestions{
+    position: absolute;
+    background: none;
+    top: 1rem;
+    left: 1rem;
+    border: 1px solid black;
+    padding: 10px;
+    width: 110px;
+    cursor: pointer;
+}
+.addQuestions{
+    top: 4rem;
+}

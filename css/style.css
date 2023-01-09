@@ -1,0 +1,144 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: whitesmoke;
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+}
+.ball1, 
+.ball2{
+  position: absolute;
+  transition: 1s;
+  opacity: 0;
+}
+.ball1.active,
+.ball2.active{
+  bottom: 50%;
+  opacity: 1;
+}
+.ball1{
+  bottom: -100%;
+}
+.ball2{
+  bottom: 100%;
+  right: 0;
+}
+.error{
+  color: red;
+  text-align: center;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.quizData{
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  width: 330px;
+  height: 290px !important;
+  background-color: rgb(235, 235, 178);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card div{
+  padding: 5px 0;
+}
+.question{
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: cadetblue;
+  padding: 0 40px;
+}
+.card-radio label{
+  font-size: 18px;
+  color: rgb(57, 54, 150);
+  text-align: center;
+}
+.card-footer button{
+  width: 140px;
+  height: 30px;
+  background: none;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+  transition: .1s;
+}
+.card-footer button:hover{
+  background-color: blueviolet;
+  color: white;
+}
+.output{
+  padding: 0 30px;
+  padding-top: 20px;
+}
+.answersBtn{
+  margin-top: 50px;
+  width: 200px;
+  height: 40px;
+  background: none;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+  transition: .1s;
+}
+.answersBtn:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+
+.block{
+  width: 330px;
+  background-color: rgb(235, 235, 178);
+  padding: 40px 10px;
+  padding-left: 30px;
+}
+.block ol li{
+  list-style-type: lower-alpha;
+  margin-left: 40px;
+}
+.span{
+  color: green;
+}
+.span2{
+  color: blue;
+}
+.results{
+  text-align: center;
+  margin: 15px 0;
+}
+.repeatBtn,.themesBtn{
+  margin-top: 10px;
+  width: 370px;
+  height: 40px;
+  background: none;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+  transition: .1s;
+}
+.repeatBtn:hover , .themesBtn:hover{
+  background-color: blueviolet;
+  color: white;
+}
+.signOut{
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  padding: 8px 40px;
+  margin-top: -50px;
+  cursor: pointer;
+}

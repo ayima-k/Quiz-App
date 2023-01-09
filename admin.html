@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="row">
+        <div class="card">
+            <div class="card-header">
+                <p style="font-size: 30px;">Добавить вопрос</p>
+                <label class="label">
+                    <span>Theme:</span>
+                    <select id="themes">
+
+                    </select>
+                </label>
+            </div>
+            <div class="card-body">
+                <p class="h6 error"></p>
+                <input type="text" class="question" id="question" placeholder="Question">
+                <input type="text" id="a"  placeholder="a">
+                <input type="text" id="b" placeholder="b">
+                <input type="text" id="c"  placeholder="c">
+                <input type="text"  id="d" placeholder="d">
+                <label class="label">
+                    <span>Correct:</span>
+                    <select id="rightAnswer">
+                        <option value="a">A</option>
+                        <option value="b">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                    </select>
+                </label>
+            </div>
+            <div class="card-footer">
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
